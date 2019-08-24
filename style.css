@@ -1,0 +1,184 @@
+* {
+    /* border: red solid 1px; */
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+/* ========NAV======= */
+.nav{
+    width: 12em;
+    height: 100vh;
+    position: fixed;
+    z-index: 999;
+    background: white;
+}
+.home{
+    margin-bottom: 2.5em;
+    border-top: lightgrey solid 1px;
+    border-bottom: lightgrey solid 1px;
+    background: ghostwhite;
+}
+.nav h2{
+    color: black;
+    font-size: 2.3em;
+    text-align: center;
+    font-family: "Roboto", "san-seriff";
+
+}
+.nav h3{
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: "Roboto", "san-seriff";
+    
+}
+.nav ul li {
+    margin-bottom: .8em;
+    height: 2.5em;
+}
+/* List Colors */
+.about i{
+    color: blueviolet;
+}
+.project i{
+    color: pink;
+}
+.skill i{
+    color: green;
+}
+.education i{
+    color: blue;
+}
+.contact i{ 
+    color: black;
+}
+.resume i{
+    color: turquoise;
+}
+/* List Colors End */
+/* hover colors */
+.about:hover{
+    border-left: blueviolet solid 3px;
+}
+.project:hover{
+    border-left: pink solid 3px;
+}
+.skill:hover{
+    border-left: green solid 3px;
+}
+.education:hover{
+    border-left: blue solid 3px;
+}
+.contact:hover{
+    border-left: black solid 3px;
+}
+.resume:hover{
+    border-left: turquoise solid 3px;
+}
+/* hover color end */
+.nav ul li i{
+    font-size: 1.5em;
+    margin-left: 20%;
+    margin-right: 5%;
+}
+.navtext{
+    margin-left: 2%;
+    color: black;
+    font-family: "Roboto", "san-seriff";
+}
+/* Display */
+/* .display{
+    
+} */
+/* Home */
+#home-page{
+    width: 100vw;
+    height: 80vh;
+    background-color: lightgrey;
+}
+/* About */
+#about-page{
+    margin-left: 12em;
+    height: 30em;
+    
+}
+#about-page h3{
+    margin-left: 2%;
+    margin-right: 3%;
+    font-size: 2em;
+}
+#about-page p{
+    margin: 1% 3% 0 2%;
+}
+.abouttitle{
+    background-color: rgb(226, 109, 226);
+    height: 4em;
+}
+.abouttitle h2{
+    text-align: center;
+    color: white;
+}
+
+/* Project */
+#project-page{
+    margin-left: 12em;
+    height: 30em;
+}
+.projecttitle{
+    background-color: rgb(219, 141, 154);
+    height: 4em;
+}
+.projecttitle h2{
+    text-align: center;
+    color: white;
+}
+
+/* Skills */
+#skill-page{
+    margin-left: 12em;
+    height: 30em;
+}
+.skilllist{
+    display: inline;
+}
+.skilltitle{
+    background-color: rgb(11, 179, 11);
+    height: 4em;
+}
+.skilltitle h2{
+    text-align: center;
+    color: white;
+}
+/* Educations */
+#education-page{
+    margin-left: 12em;
+    height: 30em;
+}
+.educationtitle{
+    background-color: rgb(61, 61, 255);
+    height: 4em;
+}
+.educationtitle h2{
+    text-align: center;
+    color: white;
+}
+/* Contact */
+#contact-page{
+    margin-left: 12em;
+    height: 30em;
+}
+.contacttitle{
+    background-color: rgb(37, 33, 33);
+    height: 4em;
+}
+.contacttitle h2{
+    text-align: center;
+    color: white;
+}
