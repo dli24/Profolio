@@ -145,8 +145,21 @@ html {
     margin-left: 12em;
     height: 30em;
 }
-.skilllist{
-    display: inline;
+.skilllist ul{
+    display: flex;
+    flex-direction: row;
+}
+.skilllist ul li{
+    margin-top: 2%;
+    margin-left: 2.5%;
+}
+.skilllist ul p {
+    text-align: center;
+    font-family: "Lucida Console", "Monaco", "monospace";
+}
+.skilllist ul li img {
+    height: 100px;
+    width: 100px;
 }
 .skilltitle{
     background-color: rgb(11, 179, 11);
@@ -165,6 +178,21 @@ html {
     background-color: rgb(61, 61, 255);
     height: 4em;
 }
+.educationlist ul{
+    display: flex;
+    flex-direction: row;
+}
+.educationlist ul p {
+    font-family: "Lucida Console", "Monaco", "monospace";
+}
+.educationlist ul li{
+    margin-left: 7%;
+    margin-top: 3%;
+}
+.educationlist ul li img{
+    height: 150px;
+    width: 300px;
+}
 .educationtitle h2{
     text-align: center;
     color: white;
@@ -172,13 +200,28 @@ html {
 /* Contact */
 #contact-page{
     margin-left: 12em;
-    height: 30em;
+    height: 27em;
 }
 .contacttitle{
     background-color: rgb(37, 33, 33);
-    height: 4em;
+    height: 5em;
 }
 .contacttitle h2{
     text-align: center;
     color: white;
+}
+.contactlist i{
+    margin-left: 5%;
+    font-size: 1em;
+}
+.phone,.email, .linkedin, .github{
+    font-size: .6em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.contactlist a{
+    font-size: 2em;
+    color: black;
+}
+.contactlist a:hover{
+    font-size: 3em;
 }
