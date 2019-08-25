@@ -3,7 +3,7 @@ function time(){
     var s = d.getSeconds();
     var m = d.getMinutes();
     var h = d.getHours();
-    // document.querySelector('.display').innerHTML = (h + ":" + m + ":" + s);
+    document.querySelector('.time').innerHTML = ("(EST): " + h + ":" + m + ":" + s);
 }
 
-// setInterval(time,1000);
+setInterval(time,1000);

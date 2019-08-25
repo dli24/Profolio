@@ -99,10 +99,19 @@ html {
 } */
 /* Home */
 #home-page{
-    width: 100vw;
-    height: 80vh;
-    background-color: lightgrey;
+    margin-left: 12em;
+    background-image:url("image/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 70em;
+    height: 40em;
 }
+#home-page h2, .time{
+    font-size: 2em;
+    margin-left: 10em;
+    color: rgb(143, 131, 131);
+}
+
 /* About */
 #about-page{
     margin-left: 12em;
