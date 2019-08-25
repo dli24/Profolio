@@ -139,6 +139,22 @@ html {
     text-align: center;
     color: white;
 }
+.projectlist{
+    display: flex;
+    flex-direction: row;
+}
+.projectcard{
+    margin-left: 2em;
+}
+
+.card {
+    height: 18em;
+    width:15em;
+} 
+.card img{
+    height: 10em;
+    width: 10em;
+}
 
 /* Skills */
 #skill-page{
@@ -219,9 +235,9 @@ html {
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
 .contactlist a{
-    font-size: 2em;
+    font-size: 2.5em;
     color: black;
 }
 .contactlist a:hover{
-    font-size: 3em;
+    font-size: 3.5em;
 }
